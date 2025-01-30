@@ -51,7 +51,6 @@ function Homepage() {
                 onClick={() => setOpen(true)}
                 sx={{
                   backgroundColor: '#059669',
-                  '&:hover': { backgroundColor: '#047857' },
                   color: 'white',
                   borderRadius: '9999px',
                   padding: '12px 32px',
@@ -60,9 +59,13 @@ function Homepage() {
                   gap: '8px',
                   transition: 'all 0.3s',
                   transform: 'scale(1)',
-                  '&:hover': { transform: 'scale(1.05)' },
                   boxShadow: 'lg',
+                  '&:hover': { 
+                    backgroundColor: '#047857', // ✅ Merged inside one "&:hover"
+                    transform: 'scale(1.05)' 
+                  }
                 }}
+                
               >
                 Book Now
                 <ArrowForwardIcon />

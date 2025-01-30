@@ -6,7 +6,7 @@ const Footer = () => {
   const socialLinks = [
     {
       name: 'Facebook',
-      url: 'https://facebook.com/your-page',
+      url: 'https://www.facebook.com/share/15gCZ42y3c/?mibextid=wwXIfr',
       icon: (
         <svg
           className="w-6 h-6"
@@ -24,7 +24,7 @@ const Footer = () => {
     },
     {
       name: 'Instagram',
-      url: 'https://instagram.com/your-page',
+      url: 'https://www.instagram.com/va_oru_trippadikkam?igsh=aXgzOTk5MHo5bHVm&utm_source=qr ',
       icon: (
         <svg
           className="w-6 h-6"
@@ -42,7 +42,7 @@ const Footer = () => {
     },
     {
       name: 'WhatsApp',
-      url: 'https://wa.me/YOUR_PHONE_NUMBER',
+      url: 'http://wa.me/917592049934',
       icon: (
         <svg
           className="w-6 h-6"
