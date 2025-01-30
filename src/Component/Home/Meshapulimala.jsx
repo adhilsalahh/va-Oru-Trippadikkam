@@ -6,8 +6,9 @@ import { Home, Tent } from 'lucide-react';
 import meeshTent from  "../../assets/mishapulimala13.jpg"
 
 import mishapuli1 from '../../assets/mishapulimala.jpg'
-import Imagemish from './imagemish.jsx';
+
 import Pkginclumish from './pkginclumish.jsx';
+import ImageMeesh from './imageMeesh.jsx';
 // import pkginclumish from './pkginclumish.jsx';
 
 const accommodations = [
@@ -288,12 +289,11 @@ function Meshapulimala() {
 )}
 
 
-        {/* Package Inclusions */}
-        {/* <Packageinclunce /> */}
-        {/* <Pkginclumish/> */}
+       
 <Pkginclumish/>
+<ImageMeesh/>
      
-        <Imagemish/>
+
       </div>
     </div>
   );
