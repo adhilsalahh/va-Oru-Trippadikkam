@@ -7,8 +7,8 @@ import meeshTent from  "../../assets/mishapulimala13.jpg"
 
 import mishapuli1 from '../../assets/mishapulimala.jpg'
 
-import Pkginclumish from './pkginclumish.jsx';
 import ImageMeesh from './imageMeesh.jsx';
+import PkgMeesh from './PkgMeesh.jsx';
 // import pkginclumish from './pkginclumish.jsx';
 
 const accommodations = [
@@ -290,7 +290,7 @@ function Meshapulimala() {
 
 
        
-<Pkginclumish/>
+<PkgMeesh/>
 <ImageMeesh/>
      
 

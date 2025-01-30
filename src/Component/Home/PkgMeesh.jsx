@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Tent, Sunrise, Flame, Mountain, Coffee, UtensilsCrossed, Clock, Home, Beef as Jeep, Utensils, TreePine, ArrowLeft, CupSoda as Cup, ChevronDown, Footprints, BadgeCheck } from 'lucide-react';
 
-function Pkginclumish() {
+function PkgMeesh() {
   const [isDay1Open, setIsDay1Open] = useState(false);
   const [isDay2Open, setIsDay2Open] = useState(false);
 
@@ -83,4 +83,4 @@ function TimelineItem({ icon, time, text }) {
   );
 }
 
-export default Pkginclumish;
+export default PkgMeesh;
