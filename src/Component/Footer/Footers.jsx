@@ -104,8 +104,8 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Contact Us</h3>
             <div className="space-y-2 text-gray-400">
-              <p>123 Travel Street</p>
-              <p>City, India</p>
+              <p>Malappuram</p>
+              <p>Kerala, India</p>
               <p>Phone:7592049934</p>
               <p>Email: </p>
             </div>

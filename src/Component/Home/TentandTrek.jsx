@@ -2,12 +2,13 @@
 import React, { useState } from 'react';
 import { Button, TextField, Select, MenuItem, Modal, Box,FormControl, InputLabel } from '@mui/material';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-import Packageinclunce from '../Home/PackageIncu.jsx';
 import { Home, Tent } from 'lucide-react';
 import trektent from '../../assets/tenttrek_49.jpg'
 import trektent1 from '../../assets/tenttrek3.jpg'
 import treketent2 from '../../assets/tentrek2.jpg'
 import treketent4 from '../../assets/trektent4.jpg'
+import TentAndTrekImage from './TentAndTrekImage.jsx';
+import PkgTentTrek from './pkgTentTrek.jsx';
 
 const accommodations = [
     { type: "Tent", price: 1799, icon: <Tent className="w-6 h-6" />,     images: [trektent1, treketent2, treketent4],
@@ -166,7 +167,7 @@ function TentandTrek() {
         >
           <h2 className="text-2xl font-bold mb-6">Book Now</h2>
 
-          <h3  className="text-2xl font-bold mb-6"> TREK and TENT CAMPING</h3>
+          <h3  className="text-2xl font-bold mb-6"> TREK A TENT CAMPING</h3>
           <TextField
             label="Name"
             fullWidth
@@ -294,11 +295,13 @@ function TentandTrek() {
       </button>
     </div>
   </div>
-)}
+        )}
 
 
         {/* Package Inclusions */}
-        <Packageinclunce />
+       <PkgTentTrek/>
+
+        <TentAndTrekImage/>
       </div>
     </div>
   );

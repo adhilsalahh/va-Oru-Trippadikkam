@@ -18,7 +18,7 @@ import {
   ChevronDown
 } from 'lucide-react';
 
-function Packageincu() {
+function PackageIncu() {
   const [isDay1Open, setIsDay1Open] = useState(false);
   const [isDay2Open, setIsDay2Open] = useState(false);
 
@@ -155,4 +155,4 @@ function TimelineItem({ icon, time, text }) {
   );
 }
 
-export default Packageincu;
+export default PackageIncu;

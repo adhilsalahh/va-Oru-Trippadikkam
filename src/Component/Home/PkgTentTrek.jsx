@@ -19,12 +19,12 @@ import {
   ChevronDown
 } from 'lucide-react';
 
-function pkgInluTentTrek() {
+function PkgTentTrek() {
   const [isDay1Open, setIsDay1Open] = useState(false);
   const [isDay2Open, setIsDay2Open] = useState(false);
 
   const inclusions = [
-    { icon: <Mountain className="w-6 h-6" />, text: 'Anayirangal Dam View Sunset Trekking' },
+    { icon: <Mountain className="w-6 h-6" />, text: 'Phantom Rock View Sunset Trekking' },
     { icon: <Sunrise className="w-6 h-6" />, text: 'Kolukumalai Sunrise Trekking' },
     { icon: <Flame className="w-6 h-6" />, text: 'Campfire' },
     { icon: <Music2 className="w-6 h-6" />, text: 'DJ Music' },
@@ -75,7 +75,7 @@ function pkgInluTentTrek() {
                 <div className="space-y-4">
                   <TimelineItem icon={<Home />} time="02:00 PM" text="Check In" />
                   <TimelineItem icon={<TeaCup />} time="02:30 PM" text="Welcome Tea" />
-                  <TimelineItem icon={<Sun />} time="06:00 PM" text="Anayirangal Dam View Sunset Trekking" />
+                  <TimelineItem icon={<Sun />} time="06:00 PM" text="Phantom Rock View Sunset Trekking" />
                   <TimelineItem icon={<ArrowLeft />} time="07:00 PM" text="Reach Back To Campsite" />
                   <TimelineItem icon={<Flame />} time="07:20 PM" text="Campfire with DJ" />
                   <TimelineItem icon={<Utensils />} time="09:00 PM" text="Dinner - Unlimited Food" />
@@ -156,4 +156,4 @@ function TimelineItem({ icon, time, text }) {
   );
 }
 
-export default pkgInluTentTrek;
+export default PkgTentTrek;

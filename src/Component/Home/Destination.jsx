@@ -20,41 +20,41 @@ function Destination() {
               <Grid container spacing={2} justifyContent="center">
   <Grid
     item
-    xs={12}
+    xs={10}
     sm={5}
     md={4}
     lg={4}
   >
     <img
-      className="w-full xs:p-3 h-64 object-fill rounded-md mx-auto"
+      className="w-full xs:p-3  xs:h-72  lg:h-64 lg:object-fill rounded-md mx-auto"
       src={destination1}
       alt="Restaurant"
     />
   </Grid>
   <Grid
     item
-    xs={12}
+    xs={10}
     sm={5}
     md={4}
     lg={4}
    
   >
     <img
-      className="w-full h-64 object-fill rounded-md mx-auto"
+      className="w-full  xs:h-72  lg:h-64 object-fill rounded-md mx-auto"
       src={destination2}
       alt="Restaurant"
     />
   </Grid>
   <Grid
     item
-    xs={12}
+    xs={10}
     sm={5}
     md={4}
     lg={4}
     
   >
     <img
-      className="w-full h-64 object-fill rounded-md mx-auto"
+      className="w-full  xs:h-72  lg:h-64 object-fill rounded-md mx-auto"
       src={destination3}
       alt="Restaurant"
     />

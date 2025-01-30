@@ -1,4 +1,3 @@
-// App.js
 import React from "react";
 import { ThemeProvider } from "@mui/material/styles";
 import { CssBaseline } from "@mui/material";
@@ -17,7 +16,7 @@ function App() {
   return (
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
-      <Router>
+      <Router basename="/va-Oru-Trippadikkam">
         {/* Include the Navbar at the top */}
         <Navbar />
         
@@ -38,15 +37,13 @@ function App() {
           {/* Specific pages for Kolukumalai and Meeshapulimala */}
           <Route path="/kolukumalai" element={<KolukumalaiPage />} />
           <Route path="/meeshapulimala" element={<MeeshapulimalaPage />} />
-          <Route path="/tentandtrek" element={<TentandTrek/>} />
+          <Route path="/tentandtrek" element={<TentandTrek />} />
 
-
-          
           {/* Catch-all route for undefined paths */}
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
 
-        <Footer/>
+        <Footer />
       </Router>
     </ThemeProvider>
   );
