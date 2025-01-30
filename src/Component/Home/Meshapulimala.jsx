@@ -7,7 +7,7 @@ import meeshTent from  "../../assets/mishapulimala13.jpg"
 
 import mishapuli1 from '../../assets/mishapulimala.jpg'
 
-import ImageMeesh from './imageMeesh.jsx';
+import ImageMeesh from './ImageMeesh.jsx';
 import PkgMeesh from './PkgMeesh.jsx';
 // import pkginclumish from './pkginclumish.jsx';
 

@@ -86,4 +86,4 @@ function ImageMeesh
   );
 }
 
-export default ImageMeesh ;
+export default ImageMeesh;
