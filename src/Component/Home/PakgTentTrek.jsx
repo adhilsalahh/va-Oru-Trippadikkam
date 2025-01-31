@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { 
   Mountain, 
@@ -18,11 +17,9 @@ import {
   Coffee as TeaCup,
   ChevronDown
 } from 'lucide-react';
-
-function PkgTentTrek() {
+function  PakgTentTrek() {
   const [isDay1Open, setIsDay1Open] = useState(false);
   const [isDay2Open, setIsDay2Open] = useState(false);
-
   const inclusions = [
     { icon: <Mountain className="w-6 h-6" />, text: 'Phantom Rock View Sunset Trekking' },
     { icon: <Sunrise className="w-6 h-6" />, text: 'Kolukumalai Sunrise Trekking' },
@@ -33,17 +30,19 @@ function PkgTentTrek() {
     { icon: <Coffee2 className="w-6 h-6" />, text: 'Breakfast' },
     { icon: <Mountain2 className="w-6 h-6" />, text: 'Offroad Jeep Safari' }
   ];
-
   return (
-    <div className="min-h-screen bg-gradient-to-br  py-16 px-4">
-      <div className="max-w-7xl mx-auto space-y-8">
-        <section className=" backdrop-blur-lg rounded-2xl p-8 shadow-xl">
-          <h3 className="text-3xl font-serif font-bold text-white mb-8 border-b border-white/20 pb-4">
-            Package Inclusions
-          </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {inclusions.map((item, index) => (
-              <div
+  <div>
+  
+   
+     <div className="min-h-screen bg-gradient-to-br  py-16 px-4">
+       <div className="max-w-7xl mx-auto space-y-8">
+         <section className=" backdrop-blur-lg rounded-2xl p-8 shadow-xl">
+           <h3 className="text-3xl font-serif font-bold text-white mb-8 border-b border-white/20 pb-4">
+             Package Inclusions
+           </h3>
+           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+             {inclusions.map((item, index) => (
+            <div
                 key={index}
                 className="flex items-center space-x-4 p-4 rounded-lg bg-white/5 hover:bg-white/10 transition-all duration-300"
               >
@@ -139,10 +138,8 @@ function PkgTentTrek() {
         </div>
       </div>
     </div>
-  );
-}
-
-function TimelineItem({ icon, time, text }) {
+ 
+{/* function TimelineItem({ icon, time, text }) {
   return (
     <div className="flex items-center space-x-4 p-4 rounded-lg hover:bg-white/10 transition-all duration-300">
       <div className="text-emerald-400">
@@ -154,6 +151,12 @@ function TimelineItem({ icon, time, text }) {
       </div>
     </div>
   );
+} */}
+      
+    </div>
+  )
 }
 
-export default PkgTentTrek;
+export default PakgTentTrek
+
+

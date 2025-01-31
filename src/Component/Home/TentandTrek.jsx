@@ -8,7 +8,7 @@ import trektent1 from '../../assets/tenttrek3.jpg'
 import treketent2 from '../../assets/tentrek2.jpg'
 import treketent4 from '../../assets/trektent4.jpg'
 import TentAndTrekImage from './TentAndTrekImage.jsx';
-import { PkgTentTrek } from './PkgTentTrek';
+import PakgTentTrek from './PakgTentTrek.jsx';
 
 const accommodations = [
     { type: "Tent", price: 1799, icon: <Tent className="w-6 h-6" />,     images: [trektent1, treketent2, treketent4],
@@ -53,20 +53,6 @@ function TentandTrek() {
   const [selectedAccommodation, setSelectedAccommodation] = useState(null);
   const [modalImage, setModalImage] = useState(null);
 
-//   const handleWhatsAppClick = () => {
-//     const phoneNumber = "7592049934";
-//     const message = "Hello! I would like to book now.";
-//     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
-//     window.open(url, "_blank");
-//   };
-
-//   const openImageModal = (image) => {
-//     setModalImage(image);
-//   };
-
-//   const closeImageModal = () => {
-//     setModalImage(null);
-//   };
 
   return (
     <div className="min-h-screen bg-gradient-to-br">
@@ -300,8 +286,7 @@ function TentandTrek() {
 
         {/* Package Inclusions */}
       
-       <PkgTentTrek/>
-
+        <PakgTentTrek/>
         <TentAndTrekImage/>
       </div>
     </div>
