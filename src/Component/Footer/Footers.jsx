@@ -107,7 +107,7 @@ const Footer = () => {
               <p>Malappuram</p>
               <p>Kerala, India</p>
               <p>Phone:7592049934</p>
-              <p>Email: </p>
+              <p>Email:vaorutrippadikkam@gmail.com </p>
             </div>
           </div>
         </div>
